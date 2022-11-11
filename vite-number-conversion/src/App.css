@@ -1,0 +1,58 @@
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.guess-box {
+  height: 250px;
+  width: 280px;
+  margin-bottom: 10px;
+}
+
+button {
+  padding: 4px;
+  font-size: 15px;
+  margin-bottom: 20px;
+}
+button + button {
+  margin-left: 23px;
+}
+
+.wrong {
+  color: red;
+  text-align: center;
+}
+
+.correct {
+  color: green;
+  text-align: center;
+}
+
+.game {
+  margin-right: 40px;
+}
+
+.start-menu {
+  height: 200px;
+  width: 200px;
+  background-color: aquamarine;
+}
+
+.menu {
+  height: 250px;
+  width: 280px;
+  background-color: indigo;
+  text-align: center;
+  justify-content: center;  
+  color: white;
+}
+
+.menu-content {
+  padding-top: 80px;
+}
+
+.menu-button {
+  padding-top: 20px;
+}
